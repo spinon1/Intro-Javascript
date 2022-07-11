@@ -8,4 +8,10 @@ if (xnumero1==xnumero2){
     alert("Segundo y Tercer numeros son iguales");
 } else if (xnumero1==xnumero3){
     alert("Primer y Tercer numeros son iguales");    
-} else 
+} else if (xnumero1>xnumero2 & xnumero1>xnumero3){
+    alert("Primer numero es mayor");
+} else if (xnumero2>xnumero1 & xnumero2>xnumero3){
+    alert("Segundo numero es mayor");
+} else if (xnumero3>xnumero1 & xnumero3>xnumero2){
+    alert("Tercer numero es mayor");
+}
