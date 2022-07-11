@@ -1,0 +1,22 @@
+var animals=['eagle','parrot','monkey','boar','lion'];
+var comingSoonAnimals=['panter','dragon','turtle'];
+
+// concatena
+var newanimals=animals.concat(comingSoonAnimals);
+
+// de mayor a menor
+var arr=[4,6,1,0,8,45,11,5,33,50,101];
+var arr_ordenada=arr.sort(function(a, b){return a-b});
+
+// agrega un nuevo animal "cow"
+
+newanimals.push("cow");
+
+// retira el elemento eagle
+
+newanimals.shift();
+
+// encuentra el index del animal parrot
+
+console.log(newanimals.indexOf("parrot"));
+
